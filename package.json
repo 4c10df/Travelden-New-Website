@@ -1,0 +1,24 @@
+{
+  "name": "travelden-new-website",
+  "version": "1.0.0",
+  "description": "\"New website coming soon Travelden-New-Website\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./main.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4c10df/Travelden-New-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4c10df/Travelden-New-Website/issues"
+  },
+  "homepage": "https://github.com/4c10df/Travelden-New-Website#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

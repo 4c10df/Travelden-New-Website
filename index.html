@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,300&family=Montserrat:wght@100;800&family=Nunito:wght@700&family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/38e77e8a43.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    <main class="relative bg-no-repeat py-[20px] 2xl:h-screen  bg-cover bg-center  px-[15px] md:px-[70px] flex justify-center items-center text-left"
+    style="background-image:url(image/MacBook\ Air\ -\ 1.png);">
+
+
+
+
+        <section class=" w-[1200px] py-[20px] px-[15px] my-0 mx-auto" >
+            <div class="w-full pb-[20px]  my-0 mx-auto flex justify-center items-center">
+                <nav class="flex justify-between items-center w-full mb-[30px]">
+                    <a href="#" class="cursor-pointer"><img src="image/Group 70.png" alt="logo"></a>
+                    <!---icons container-->
+                    <div class="hidden ipx:flex justify-center items-center gap-[22px]">
+                        <a href="#"><i class="fa-brands fa-facebook-f transition-all duration-300 ease-in-out"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter transition-all duration-300 ease-in-out"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram transition-all duration-300 ease-in-out"></i></a>
+                        <a href="#" class="text-[26px] text-center hover:text-[#F58220] text-[#00502A] transition-all duration-300 ease-in-out">&sung;</a>
+                    </div>
+                </nav>
+            </div>
+
+
+            <div class="relative bg-white  w-full px-[15px] md:px-[70px] py-[45px] flex justify-center items-center">
+                <div class="static grid grid-cols-1 lg:grid-cols-custom gap-x-[6.25rem] gap-y-5 ">
+                    <!---text container-->
+                    <div>
+                        <div class="w-full sm:w-[388px]">
+                            <!---text-->
+                            <div class="mb-[20px]">
+                                <p class="text-[16px] font-mono font-bold text-[#F58220]">Coming soon</p>
+                                <h1 class="text-[26px] sm:text-[49px] font-mono text-[#002948] w-[238px] sm:w-[303px] smipx:leading-[1.8rem] sm:leading-[3.8rem] font-bold">Our new Website is on the way.</h1>
+                                <p class="text-[14px] font-mono font-semibold w-[225px] sm:w-[248px] text-[#6C8395]">Sign up to be the first to know when we launch.</p>
+                            </div>
+                            <!---Email-->
+                            <div class="mb-[60px]">
+                                <form action="#" method="get">
+                                    <div class="relative grid my-0 mx-auto">
+                                        <input class="mail shadow smipx:w-[200px] ipx:w-full "
+                                         type="email" placeholder="Enter your email here" 
+                                         id="email-field1" onkeyup="validateEmail2()"
+                                         required
+                                        />
+                                        <button class="bg-[#00502A] font-mono absolute right-[4px] top-[4px] text-[20px] w-[48px] h-[48px]
+                                         hover:bg-[#A6CE39] transition-all duration-300 ease-in-out text-white text-center cursor-pointer border-solid " type="submit"
+                                            value="Subscribe!" onclick="emailbutton2()"
+                                            >&#10132; 
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <!---contact us-->
+                        <div class="float-left">
+                            <div class="flex flex-col sm:flex-row sm:gap-5 text-[#F58220] text-left ">
+                                <a href="#" class="flex justify-center items-center cursor-pointer text-left">
+                                    <i class="fa fa-envelope pr-[5px] transition-all duration-300 ease-in-out"></i>
+                                    <p class="txts transition-all duration-300 ease-in-out">info@travelden.com</p>
+                                </a>
+                                 &#10072;
+                                <a href="#" class="flex justify-center items-center text-left">
+                                    <i class="fa-solid fa-phone pr-[5px]  transition-all duration-300 ease-in-out"></i>
+                                    <p class="txts  transition-all duration-300 ease-in-out">+234 800 000 0000</p>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!---image container-->
+                    <div class="bg-transparent pb-[50px] bg-center bg-cover h-[409px] w-full my-0 mx-auto"
+                     style="background-image:url(image/MacBook\ Air\ -\ 1.png);">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
