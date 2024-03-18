@@ -4,6 +4,11 @@ module.exports = {
   theme: {
     extend: {
 
+      colors: {
+        'regal-blue': 'rgba(255, 255, 255, 0.5)',
+      },
+      
+
       screens: {
         'smipx': '300px',
         // => @media (min-width: 640px) { ... }
